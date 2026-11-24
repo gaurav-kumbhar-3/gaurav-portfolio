@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gaurav Kumbhar | Developer Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">{Gaurav}<span>.</span></a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="menu-btn" id="menuBtn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+
+        <div class="home-content">
+            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+
+            <h1>Hi, I'm <span>Gaurav Kumbhar</span></h1>
+
+            <h2>I'm a <span id="typing"></span></h2>
+
+            <p class="home-description">
+                A passionate developer from Mumbai, India.
+                I enjoy creating modern, responsive websites
+                and building useful web applications.
+            </p>
+
+            <div class="home-buttons">
+                <a href="#projects" class="btn">View My Work</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+                <a href="/resume/Gaurav_Kumbhar_Resume.pdf" class="btn" download>
+                    <i class="fas fa-download"></i>
+                    Download Resume
+                </a>
+            </div>
+
+            <div class="social-icons">
+                <a href="https://github.com/gaurav-kumbhar-3" target="_blank" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/gaurav-kumbhar-dev/" target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="home-image">
+            <div class="profile-circle">
+                <img src="/img/GAURAV_KUMBHAR.png" alt="">
+                <!-- <i class="fas fa-user-astronaut"></i> -->
+            </div>
+        </div>
+
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+
+        <h2 class="section-title">About <span>Me</span></h2>
+
+        <div class="about-content">
+
+            <div class="about-image">
+                <img src="/img/Neon Purple Developer Portrait.png" alt="">
+                <!-- <i class="fas fa-code"></i> -->
+
+            </div>
+
+            <div class="about-text">
+
+                <h3>Frontend Developer & Full Stack Enthusiast</h3>
+
+                <p>
+                    I am Gaurav Kumbhar, a Bachelor of Science in
+                    Information Technology graduate from Mumbai.
+
+                    I have knowledge of HTML, CSS, JavaScript,
+                    React.js, Node.js, Express.js and MySQL.
+
+                    I completed a Web Developer internship at 10xTech,
+                    where I worked on real-world development tasks.
+
+                    I enjoy learning new technologies, solving problems
+                    and developing user-friendly applications.
+                </p>
+
+                <div class="about-details">
+                    <p><strong>Name:</strong> Gaurav Kumbhar</p>
+                    <p><strong>Education:</strong> BSc Information Technology</p>
+                    <p><strong>Location:</strong> Mumbai, India</p>
+                    <p><strong>Role:</strong> Junior Developer</p>
+                </div>
+
+                <a href="#contact" class="btn">Let's Connect</a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills section" id="skills">
+
+        <h2 class="section-title">My <span>Skills</span></h2>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <i class="fab fa-html5"></i>
+                <h3>HTML5</h3>
+                <div class="progress"><span style="width:95%"></span></div>
+            </div>
+
+            <div class="skill-card">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS3</h3>
+                <div class="progress"><span style="width:95%"></span></div>
+            </div>
+
+            <div class="skill-card">
+                <i class="fab fa-js"></i>
+                <h3>JavaScript</h3>
+                <div class="progress"><span style="width:80%"></span></div>
+            </div>
+
+            <div class="skill-card">
+                <i class="fab fa-react"></i>
+                <h3>React.js</h3>
+                <div class="progress"><span style="width:80%"></span></div>
+            </div>
+
+            <div class="skill-card">
+                <i class="fab fa-node-js"></i>
+                <h3>Node.js</h3>
+                <div class="progress"><span style="width:80%"></span></div>
+            </div>
+
+            <div class="skill-card">
+                <i class="fas fa-database"></i>
+                <h3>MySQL</h3>
+                <div class="progress"><span style="width:70%"></span></div>
+            </div>
+
+            <div class="skill-card">
+                <i class="fab fa-python"></i>
+                <h3>Python</h3>
+                <div class="progress"><span style="width:65%"></span></div>
+            </div>
+
+            <div class="skill-card">
+                <i class="fab fa-aws"></i>
+                <h3>AWS / DevOps</h3>
+                <div class="progress"><span style="width:65%"></span></div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience section" id="experience">
+
+        <h2 class="section-title">My <span>Experience</span></h2>
+
+        <div class="experience-card">
+            <div class="experience-icon">
+                <i class="fas fa-briefcase"></i>
+            </div>
+
+            <div>
+                <h3>Web Developer Intern</h3>
+                <h4>10xTech</h4>
+                <p class="date">Internship | July 2026 - October 2026</p>
+
+                <p>
+                    Worked on web development tasks, collaborated
+                    with team members, used Git and GitHub for
+                    version control, and contributed to real-world
+                    development projects.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects section" id="projects">
+
+        <h2 class="section-title">My <span>Projects</span></h2>
+
+        <div class="project-container">
+
+            <div class="project-card">
+                <div class="project-image">
+                    <i class="fas fa-utensils"></i>
+                </div>
+
+                <div class="project-info">
+                    <h3>Food Delivery App</h3>
+
+                    <p>
+                        A responsive food ordering application
+                        with food listings, cart management,
+                        user authentication and admin features.
+                    </p>
+
+                    <div class="tech-stack">
+                        <span>React.js</span>
+                        <span>Node.js</span>
+                        <span>Express.js</span>
+                        <span>MySQL</span>
+                    </div>
+
+                    <a href="#" class="project-link">Project Details
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <i class="fas fa-dumbbell"></i>
+                </div>
+
+                <div class="project-info">
+                    <h3>FitFlow Gym Management</h3>
+
+                    <p>
+                        A gym management dashboard project
+                        designed to manage members and
+                        gym-related information.
+                    </p>
+
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>Django</span>
+                        <span>MySQL</span>
+                        <span>HTML</span>
+                    </div>
+
+                    <a href="#" class="project-link">Project Details
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+
+        <h2 class="section-title">Contact <span>Me</span></h2>
+
+        <p class="contact-description">
+            Have an opportunity or project in mind?
+            Let's connect and work together!
+        </p>
+
+        <form id="contactForm">
+
+            <div class="input-group">
+                <input type="text" id="name" placeholder="Your Name" required>
+
+                <input type="email" id="email" placeholder="Your Email" required>
+            </div>
+
+            <input type="text" id="subject" placeholder="Subject" required>
+
+            <textarea id="message" rows="6" placeholder="Your Message" required></textarea>
+
+            <button type="submit" class="btn">
+                Send Message <i class="fas fa-paper-plane"></i>
+            </button>
+
+        </form>
+
+        <p id="formMessage"></p>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Copyright &copy; 2026 Gaurav Kumbhar.
+            All Rights Reserved.</p>
+        <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
